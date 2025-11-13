@@ -57,19 +57,6 @@ window.TeleBotHostConfig = {
 - `dark`: Dark background, light text  
 - `minimal`: Subtle light theme with reduced shadow
 
-## Advanced Features
-
-### Automatic Protection
-The badge includes built-in protection:
-- Always stays on top of other elements
-- Repositions itself if pushed out of view
-- Survives DOM changes and page updates
-- Responsive to viewport changes
-
-### Smart Positioning
-- Automatically adjusts if cut off by viewport edges
-- Maintains safe distance from screen boundaries
-- Works with fixed, sticky, and absolute positioned layouts
 
 ## Example Configurations
 
@@ -98,19 +85,8 @@ window.TeleBotHostConfig = {
 <!-- No configuration needed - uses defaults -->
 ```
 
-## Best Practices
-
-1. **Place config script before** the TeleBotHost loader
-2. **Test different positions** to ensure it doesn't overlap critical content
-3. **Choose appropriate theme** that contrasts with your site's design
-4. **The badge is responsive** - it works on all screen sizes
 
 ## Troubleshooting
-
-**Badge not appearing?**
-- Ensure script is properly loaded
-- Check for JavaScript errors in console
-- Verify no content security policy blocking the script
 
 **Badge overlapping content?**
 - Try a different position (e.g., `top-left` instead of `bottom-right`)
