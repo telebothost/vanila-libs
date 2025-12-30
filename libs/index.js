@@ -1,4 +1,4 @@
-// copyx.js
+//helper to copy any text to clipboard 
 export async function c(t) {
   if (t == null) return false
   t = String(t)
