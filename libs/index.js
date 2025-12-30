@@ -1,5 +1,5 @@
 //helper to copy any text to clipboard 
-export async function c(t) {
+export async function copyx(t) {
   if (t == null) return false
   t = String(t)
 
